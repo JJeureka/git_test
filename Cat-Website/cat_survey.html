@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Survey</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+  <div>
+  <header>
+    <h1 id="title">Do YOU Love Cats?
+      <p id="description"> Tell us about
+        it! 
+      </p>
+    </h1>
+  </header>
+  <div>
+  <form id="survey-form">
+    <h1 class="survey-prompt1"> Please enter the following information: </h1>
+    
+       <div>
+   <label id="name-label"  for="name">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="form-control"
+        placeholder="Enter your name"
+        required
+             > </div>
+    <div>
+    <label id="email-label"  for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Enter your Email"
+        required
+      > </div>
+    <div>
+    <label id="number-label" for "number"> How many cats do you own?</label>
+      <input
+        type="number"
+        name="number"
+        id="number"
+        min="0"
+        max="100"
+        placeholder="# of Cats"
+      /> </div>
+    <div>
+    <label class="input-label" for "dropdown"> How great is your love of cats? </label>
+    <select id="dropdown" name="role"  required>
+        <option disabled selected value>Choose an amount</option>
+        <option value="extreme">Extreme</option>
+        <option value="insane">INSANE</option>
+        <option value="so-much">So Much</option>
+        <option value="preferNo">Prefer not to say</option>
+       </select> </div>
+    <div>
+  
+    
+    <h1 class= "prompt"> Please fill out the following questions as honestly as possible. There are no right or wrong answers, though it might be hard to answer if you don't like cats :) </h1>
+      </div>
+    <div>
+    <h1 class = "input-label2"> Would you recommend cats to a friend?</h1> </div>
+    <div>
+      <label class="input-radio">
+             <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked
+        />Definitely</label
+      > </div>
+    <div>
+      <label class="input-radio">
+        <input
+          name="user-recommend"
+          value="most-definitely"
+          type="radio"
+          class="input-radio"
+        />Most Definitely</label
+      > </div>
+    <div>
+
+      <label class="input-radio"
+        ><input
+          name="user-recommend"
+          value="without-doubt"
+          type="radio"
+          class="input-radio"
+        />Without A Doubt</label> </div>
+     <div>
+    <h1 class = "input-label2">What do you like to do with cats?</h1> </div>
+     <div>
+        <label class="input-checkbox"
+        ><input
+          name="prefer"
+          value="play-with-snake"
+          type="checkbox"
+          class="input-checkbox"
+        />Play With the Snake</label
+      > </div>
+    <div>
+      <label class="input-checkbox">
+        <input
+          name="prefer"
+          value="cuddle"
+          type="checkbox"
+          class="input-checkbox"
+        />Cuddle </label
+      > </div>
+    <div>
+      <label class="input-checkbox"
+        ><input
+          name="prefer"
+          value="play-with-bird"
+          type="checkbox"
+          class="input-checkbox"
+        />Play With the Bird</label
+      > </div>
+    <div>
+      <label class="input-checkbox"
+        ><input
+          name="prefer"
+          value="Adore-cuteness"
+          type="checkbox"
+          class="input-checkbox"
+        />Adore kitty's cuteness</label
+      > </div>
+    <div>
+    
+    <h2> Anything Else You Want To Say?</h2>
+          <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Only Nice Comments Accepted"
+      ></textarea> </div>
+    <div>
+         <button id="submit" type="submit" class="submit-button">
+        Submit
+      </button> </div>
+    </div>
+</body>   
+</html>

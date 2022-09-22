@@ -1,0 +1,39 @@
+body {
+    background-color: #FF8900;
+    }
+    #image {
+      max-width: 100%;
+      display: block;
+      margin: auto;
+    }
+    
+    
+    h1 {
+      text-align:
+      center;
+    }
+    
+    
+    figcaption {
+      text-align:
+      center;
+      color: white;
+    }
+    
+    a:hover {
+      color: white;
+    }
+    
+    p {
+      padding: 2px 10%;
+      text-align:center;
+    
+    }
+    ul {
+      padding: 2px 15%;
+    
+    }
+    #tribute-info {
+      font-size: 2rem;
+    }
+    
