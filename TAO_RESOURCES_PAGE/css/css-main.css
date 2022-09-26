@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=roboto&display=swap');
+
+* {
+    font-family: roboto;
+    box-sizing: border-box;
+}
+
+
+.title {
+    text-align:center;
+    padding-bottom: 2rem;
+}
+
+.issue-title {
+
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+
+@media screen and (min-width:1000px) { 
+    body{
+        width: 75%;
+        margin: auto;
+    }
+    
+    
+}
+
+.resource-name {
+    font-size: 1 rem;
+    margin-bottom: -.8rem;
+
+}
+
+
+.resource-link {
+    font-size: 1 rem;
+    margin-bottom: 1.3rem;
+
+}
+
+
+
+.resource-link a:hover {
+    color: #02595c;
+}
+
+
+
+.resource-link-last-us {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+
+}
+.canada-header {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.resource-link-last {
+    font-size: 1rem;
+    margin-bottom: 4rem;
+
+}
