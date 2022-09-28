@@ -134,7 +134,7 @@ Body {
   
   
   
-  comments {
+  #comments {
     position:relative;
     margin: 1rem;
     width: 60%;
@@ -176,7 +176,13 @@ Body {
     
   }
   
-    
+  .say-more {
+    color:#f0f0f0;
+  }
+  #comments {
+    height: 10rem;
+    width: 20rem;
+  }
     
     
   
