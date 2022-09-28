@@ -5,28 +5,49 @@
 body {
     background-color: #FF8900;
     }
+    
     #image {
       max-width: 100%;
-      display: block;
       margin: auto;
+      max-height: 100%;
+      border-radius: 5%;
+      object-fit: cover;
     }
     
+    #img-div {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 3rem;
+      width: 70rem;
+      height: 20rem;
+      margin: 0 auto;
+      padding: 20px 10px;
+      background-color: #55555511;
+      border-radius: 3%;
+    }
+
+
+
     
     h1 {
       text-align:
       center;
     }
+    
     h2 {
       text-align:
       center;
     }
     
     
-    figcaption {
-      text-align:
-      center;
+    #img-caption {
+      text-align:center;
       color: white;
       font-size: 1.4rem;
+      padding-top: 2rem;
     }
     
     a:hover {
