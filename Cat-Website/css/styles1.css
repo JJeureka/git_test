@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 Body {
     Background: turquoise;
     font-family: sans-serif;
@@ -96,7 +100,7 @@ Body {
   
   .prompt {
     
-    margin: 3rem 1rem 0 1rem;
+    margin: 3rem 2rem 0 1rem;
     color:white;
     font-size: 1.4rem;
      
